@@ -1,0 +1,81 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    flex-direction: column;
+    color: #333;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #007bff; /* Azul para el título */
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+#instruction {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #d9534f; /* Rojo para llamar la atención */
+    margin-bottom: 20px;
+}
+
+/* Contador aún más grande */
+#timer {
+    font-size: 12em; /* Doblado el tamaño anterior */
+    font-weight: bold;
+    color: #d9534f;
+    margin-bottom: 40px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:active {
+    background-color: #004085;
+}
+
+/* Estilos para hacer el contenido centrado y bonito */
+.container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    margin: 20px;
+}
